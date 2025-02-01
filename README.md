@@ -1,6 +1,4 @@
-# 🎈 Streamlit + LLM Examples App
-
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/streamlit/llm-examples?quickstart=1)
+# 🎈 Streamlit + App ChatGPT
 
 Starter examples for building LLM apps with Streamlit.
 
@@ -38,13 +36,4 @@ To set the OpenAI API key as an environment variable in Streamlit apps, do the f
 
 ```sh
 OPENAI_API_KEY='xxxxxxxxxx'
-```
-
-## Run it locally
-
-```sh
-virtualenv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-streamlit run Chatbot.py
 ```
